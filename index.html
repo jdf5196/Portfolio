@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/styles.css">
-	<script></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/app.js"></script>
 	<title>Joshua Francona</title>
 </head>
 <body>
@@ -17,15 +18,17 @@
   		</ul>
 	</header>
 	<section id="projectsContainer">
-		<div id="overlay" class="blank"></div>
+		<div id="overlay" class="blank">
+			<div id="overlayImage"></div>
+			<p class="overlayText"></p>
+			<a href="#" class="fadeout">Close</a>
+		</div>
 		<div id='projects'>
 			<h2 class='projectHeading'>Projects</h2>
 			<ul id="projectsList">
-				<li id="siteHack">
-					<img class="image" type="Image/jpg" src="Images/sitehack.jpg"><p class="projectText">New York Times Hack</p>
+				<li id="siteHack"><a href="#"><img src="Images/sitehack.jpg" class="image" alt="NYT Hack"><p class="projectText">New York Times Hack</p></a>
 				</li>
-				<li id="siteClone">
-					<img class="image" type="Image/jpg" src="Images/siteclone.jpg"><p class="projectText">Karma Website Clone</p>
+				<li id="siteClone"><a href="#"><img src="Images/siteclone.jpg" class="image" alt="Karma Clone"><p class="projectText">Karma Website Clone</p></a>
 				</li>
 				<li id="shoppingList">
 					<img class="image" type="Image/jpg" src="Images/Shopping-List.png"><p class="projectText">Shopping-List App</p>
