@@ -2,9 +2,20 @@ body{
   color: #222222; 
   font-size: 1em; 
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #37475A;
+}
+a {
+  color:#4B898A;
+  font-weight: 800;
+}
+a:hover {
+  color:#844B8A;
+}
+a:link {
+  text-decoration:none;
 }
 .topnav {
-  background-color: #A9A9A9;
+  background-color: black;
   width:100%;
   height:70px;
   z-index: 9999;
@@ -41,6 +52,28 @@ body{
   margin-top:2.6rem;
   font-weight: 400;
 
+}
+.name, .title {
+  color: #37475a;
+}
+#introPicture {
+  background-image: url("../Images/space.jpeg");
+  background-size: cover;
+  border:solid;
+  background-repeat: no-repeat;
+  padding:15em 0;
+}
+.introText {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+#about {
+  width:853px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
 }
 #overlay {
   width: 994px;
@@ -148,7 +181,7 @@ body{
   z-index: 1001;
 }
 h2 {
-  margin-left:34px;
+  margin-left:75px;
 }
 .image {
 	width: 400px;
@@ -159,8 +192,10 @@ h2 {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
-  border: solid;
-  border-radius:100px;
+  margin-bottom:50px;
+}
+.projectHeading {
+  color: black;
 }
 #projects {
 	display:inline;
@@ -175,9 +210,7 @@ h2 {
   text-align: center;
   font-weight: 500;
 }
-.projectHeading {
-  font-weight: 600;
-}
+
 .content-footer > p
 {
   font-weight: 300; 
@@ -185,7 +218,7 @@ h2 {
   color:white
 }
 .content-footer {
-	background-color: #A9A9A9;
+	background-color: black;
 	width: 100%;
 	text-align: center;
  }
@@ -206,4 +239,137 @@ h2 {
 }
 .social {
 	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .topnav {
+    padding: 2em 0;
+    font-size:1em;
+    margin-top:-3em;
+    height:100px;
+    text-align: center;
+  }
+  .name {
+    float:none;
+  }
+  .topnavname > .links > a {
+    display:none;
+  }
+  #introText {
+    font-size: 3em;
+  }
+  #introPicture {
+    padding: 3em 0;
+  }
+  .content-footer {
+    font-size: .75em;
+    padding: 0;
+  }
+  .icon {
+    height: 30px;
+    width: auto;
+  }
+  .icon:hover {
+    height: 28px;
+    width: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  #projectsContainer {
+    width: 500px;
+    padding: 0;
+    margin: 0 auto;
+
+  }
+  #projectsList li {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  h2 {
+    margin-left: 0px;
+  }
+  #overlay {
+  width: 500px;
+}
+.sitehack #overlayImage {
+  width: 400px;
+  height: 253px;
+  background-image: url("../Images/sitehack.jpg");
+  background-size: 400px 253px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.siteclone #overlayImage {
+  width: 400px;
+  height: 205px;
+  background-image: url("../Images/siteclone.jpg");
+  background-size: 400px 205px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.shoppinglist #overlayImage {
+  width: 400px;
+  height: 287px;
+  background-image: url("../Images/Shopping-List.png");
+  background-size: 400px 287px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.hotorcold #overlayImage {
+  width: 400px;
+  height: 286px;
+  background-image: url("../Images/Hot-or-Cold.png");
+  background-size: 400px 286px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.quiz #overlayImage {
+  width: 400px;
+  height: 284px;
+  background-image: url("../Images/Quiz.png");
+  background-size: 400px 284px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.api #overlayImage {
+  width: 400px;
+  height: 286px;
+  background-image: url("../Images/API.png");
+  background-size: 400px 286px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+  .overlaySource {
+  margin-left:20px;
+
+}
+.overlayDemo {
+margin-right:0px;
+}
+#about {
+  width: 400px;
 }

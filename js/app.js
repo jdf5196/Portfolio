@@ -1,4 +1,6 @@
 $(function(){
+
+	//Shows overlay on click
 	$("#siteHack").click(function(){
 		$("#overlay").addClass("sitehack").removeClass("blank")
 		$('.fadeout').html('Close');
@@ -55,6 +57,7 @@ $(function(){
 		$(".overlayText").html("Sixth Thinkful project. Used HTML, CSS, JavaScript and AJAX to create a weather app that allows users to guess the current temperature using the World Weather Online API.");
 		$("#overlay").fadeIn(500);
 	});
+	//Hides and clears overlay
 	$(".fadeout").click(function(){
 		$("#overlay").fadeOut(500);
 		$('.fadeout').html('');
