@@ -55,6 +55,16 @@ body{
   z-index: 1000;
   display:none;
 }
+.overlaySource {
+  margin-left: 200px;
+  font-size: 1.5em;
+}
+.overlayDemo {
+  width: 100px;
+  float: right;
+  margin-right: 200px;
+  font-size: 1.5em;
+}
 .overlayText {
   text-align: center;
   font-size: 2em;
@@ -89,7 +99,54 @@ body{
   border-radius: 10px;
   z-index: 1001;
 }
-
+.shoppinglist #overlayImage {
+  width: 800px;
+  height: 574px;
+  background-image: url("../Images/Shopping-List.png");
+  background-size: 800px 574px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.hotorcold #overlayImage {
+  width: 800px;
+  height: 572px;
+  background-image: url("../Images/Hot-or-Cold.png");
+  background-size: 800px 572px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.quiz #overlayImage {
+  width: 800px;
+  height: 568px;
+  background-image: url("../Images/Quiz.png");
+  background-size: 800px 568px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.api #overlayImage {
+  width: 800px;
+  height: 572px;
+  background-image: url("../Images/API.png");
+  background-size: 800px 572px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  z-index: 1001;
+}
 h2 {
   margin-left:34px;
 }
